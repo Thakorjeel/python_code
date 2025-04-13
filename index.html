@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detect Internet Speed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Detect Internet Speed</h1>
+    <div class="speed-circle">
+      <button id="startBtn" onclick="runSpeedTest()">Start Test</button>
+    </div>
+
+    <div class="results">
+      <div class="result-block">
+        <h2>Ping</h2>
+        <p id="ping">-- ms</p>
+      </div>
+      <div class="result-block">
+        <h2>Download</h2>
+        <p id="download">-- Mbps</p>
+      </div>
+      <div class="result-block">
+        <h2>Upload</h2>
+        <p id="upload">-- Mbps</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Jeel Thakor | GTU Project | Guided by Ms. Kinjal Bhagariya</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
